@@ -1,0 +1,40 @@
+.page {
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page.light,.header.light {
+    background-color: white;
+    color: black;
+}
+
+.page.dark,.header.dark  {
+    background-color: black;
+    color: white;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px 40px;
+    align-items: center;
+}
+.header .logo,.header .header-btn {
+    width: 50%;
+}
+.header .logo img{
+    width: 100px;
+}
+.header .header-btn {
+    text-align: right;
+}
+.page .text-wrap{
+    text-align: center;
+}
+.header-btn button {
+    background: none;
+    border: none;
+}
+.section-1.row {
+    margin: 40px 0;
+}
